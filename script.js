@@ -5,15 +5,6 @@ var currentHour = moment().format("HH");
 var currentHourParse = parseInt(currentHour);
 console.log(currentHourParse);
 
-$("#hour9").attr("data-time", moment("9AM", "hA").format("HH"));
-$("#hour10").attr("data-time", moment("10AM", "hA").format("HH"));
-$("#hour11").attr("data-time", moment("11AM", "hA").format("HH"));
-$("#hour12").attr("data-time", moment("12PM", "hA").format("HH"));
-$("#hour1").attr("data-time", moment("1PM", "hA").format("HH"));
-$("#hour2").attr("data-time", moment("2PM", "hA").format("HH"));
-$("#hour3").attr("data-time", moment("3PM", "hA").format("HH"));
-$("#hour4").attr("data-time", moment("4PM", "hA").format("HH"));
-$("#hour5").attr("data-time", moment("5PM", "hA").format("HH"));
 
 var hours = function() {
     for (var counter = 1; counter <= 12; counter++) {
