@@ -1,4 +1,5 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler
+
 ## Description 
 This project is to utilize bootstrap styling, and add important events to the daily planner to manage my time effectively using jquery & moment.js. 
 
